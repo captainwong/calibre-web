@@ -7,7 +7,7 @@ from cps.services.Metadata import Metadata
 class Google(Metadata):
     __name__ = "豆瓣"
     __id__ = "douban"
-    __url__ = "http://192.168.1.168:8085"
+    __url__ = "http://douban-api-proxy.captainwong.cn"
 
     def search(self, query, __):
         if self.active:
