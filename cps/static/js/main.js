@@ -121,14 +121,6 @@ $("#form-upload").uploadprogress({
 });
 
 $(document).ready(function() {
-    var _hmt = _hmt || [];
-    (function() {
-    var hm = document.createElement("script");
-    hm.src = "https://hm.baidu.com/hm.js?9a79d99b2e653bf778370be4759cad14";
-    var s = document.getElementsByTagName("script")[0]; 
-    s.parentNode.insertBefore(hm, s);
-    })();
-    
   var inp = $('#query').first()
   if (inp.length) {
     var val = inp.val()
